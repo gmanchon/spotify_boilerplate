@@ -5,7 +5,7 @@
 </head>
 <body>
   {% for song in songs %}
-    <p class="song-text">The genre is:</p>
+    <h1 class="song-text">The genre is:</p>
     <p class="song-genre">{{ song["genre"] }}</p>
     <p class="song-title">Querying the amazing API for {{ song["name"] }}</p>
   {% endfor %}
