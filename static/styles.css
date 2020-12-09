@@ -1,7 +1,14 @@
 
 body {
-  margin-top: 200px;
-  margin-left: 200px;
+  margin: 200px;
+  background: url(https://i.pinimg.com/originals/f7/72/1f/f7721f91dee77e7b4ea6acfd66e240b1.png);
+  background-size: cover;
+}
+
+.content {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 10px;
 }
 
 h1 {
@@ -16,6 +23,11 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+}
+
+.highlight {
+  color: red;
+  font-weight: 500;
 }
 
 .song-text {
